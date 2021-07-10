@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>MINECRAFT</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <!-- Font Awesome icons-->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link rel="preload" href="BurbankBigCondensed-Black.woff2" as="font" type="font/woff2" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet" />
+    <!--  Bootstrap -->
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        @import url(//db.onlinewebfonts.com/c/6ab539c6fc2b21ff0b149b3d06d7f97c?family=Minecraft);
+
+        .btn {
+            background-color: #34aa2f !important;
+            font-family: 'Minecraft';
+            -webkit-box-shadow: 0 -4px rgb(21 108 0 / 50%) inset, 0 4px rgb(100 253 31 / 99%) inset, -4px 0 rgb(100 253 31 / 50%) inset, 4px 0 rgb(21 108 0 / 50%) inset;
+            box-shadow: 0 -4px rgb(21 108 0 / 50%) inset, 0 4px rgb(100 253 31 / 99%) inset, -4px 0 rgb(100 253 31 / 50%) inset, 4px 0 rgb(21 108 0 / 50%) inset !important;
+        }
+
+        .btn:hover {
+            background-color: #36b030 !important;
+            -webkit-box-shadow: 0 -4px rgb(21 108 0 / 50%) inset, 0 4px rgb(100 253 31 / 99%) inset, -4px 0 rgb(100 253 31 / 50%) inset, 4px 0 rgb(21 108 0 / 50%) inset;
+            box-shadow: 0 -4px rgb(21 108 0 / 50%) inset, 0 4px rgb(100 253 31 / 99%) inset, -4px 0 rgb(100 253 31 / 50%) inset, 4px 0 rgb(21 108 0 / 50%) inset !important;
+        }
+
+        body {
+            font-family: 'Minecraft';
+        }
+
+        .masthead {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            min-height: 35rem;
+            padding: 15rem 0;
+            background: url(https://cdn.wallpaperhub.app/cloudcache/f/8/f/9/8/0/f8f980bf8a640255a90ac07a4bac0138dc25c186.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+        }
+
+        .nav-link.active {
+            color: white !important;
+            outline: none;
+            border-bottom: 0.25rem solid white !important;
+            background-image: url(https://static.miraheze.org/mcdiscontinuedwiki/thumb/9/9b/Fire_%28Item%29.gif/250px-Fire_%28Item%29.gif);
+            background-size: cover;
+        }
+
+        .about-section {
+            background-image: url(https://www.minecraft.net/content/dam/minecraft/backgrounds/bg-wool-dark.png);
+            background-size: 100px;
+            overflow: hidden;
+        }
+
+        footer {
+            background-image: url(https://www.minecraft.net/content/dam/minecraft/backgrounds/bg-wool-dark.png);
+            background-size: 100px;
+        }
+
+        .projects-section {
+            background-image: url(https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/feature-content/bg-wool-light.png);
+            background-size: 100px;
+        }
+
+        .featured-text {
+            padding: 0 0 0 2rem;
+            border-left: 0.5rem solid black !important;
+        }
+
+        #mainNav.navbar-shrink {
+            background-image: url(https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/feature-content/bg-wool-light.png);
+            background-size: contain;
+
+        }
+
+        .signup-section {
+            padding: 10rem 0;
+            background-image: url(https://wallpapercave.com/wp/wp7672085.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        #effect {
+            background-image: url(https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/feature-content/trans-bottom-darkwool.png);
+            width: 100%;
+            height: 10px;
+            background-size: contain;
+            background-repeat: repeat-x;
+            background-size: 100px;
+            position: relative;
+            bottom: -230px;
+            z-index: 100;
+        }
+
+        #effect2.navbar-shrink {
+            background-image: url(https://i.ibb.co/6mQhG6B/New-Project-8.png);
+            width: 100%;
+            height: 10px;
+            background-size: contain;
+            background-repeat: repeat-x;
+            bottom: -10px;
+            margin-left: -15px;
+            background-size: 100px;
+            position: absolute;
+            z-index: 100;
+        }
+
+        #effect3 {
+            background-image: url(https://i.ibb.co/6mQhG6B/New-Project-8.png);
+            width: 100%;
+            height: 10px;
+            background-size: contain;
+            background-repeat: repeat-x;
+            bottom: -10px;
+            margin-left: -15px;
+            background-size: 100px;
+            position: relative;
+            z-index: 100;
+            bottom: -170px;
+        }
+
+        #dragon {
+            position: relative;
+            animation: dragon 8s linear;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes dragon {
+            from {
+                left: 1000px;
+            }
+
+            to {
+                left: -1000px;
+            }
+        }
+    </style>
+</head>
+
+<body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div id="effect2"></div>
+        <div class="container">
+            <a href="" class="navbar-brand js-scroll-trigger"><img width="30%"
+                    src="https://www.minecraft.net/content/dam/games/minecraft/logos/Dungeons-PMP_DLC-Hidden-Depths_Logo-525x163.png"
+                    alt=""></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link js-scroll-trigger">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#news" class="nav-link js-scroll-trigger">Watch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#signup" class="nav-link js-scroll-trigger">Subscribe</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <header class="masthead">
+        <div class="container d-flex h-100">
+            <div class="text-left">
+                <h2 style="font-weight: bold; font-size: 86px;" class="text-white my-0 text-uppercase">JOIN US</h2>
+                <h2 class="text-white mt-2 mb-5">Let's play Minecraft together!</h2>
+                <a href="#about" class="btn btn-black js-scroll-trigger">Get Started</a>
+            </div>
+        </div>
+        <div id="effect"></div>
+    </header>
+
+    <section class="about-section text-center" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2
+                        style="background-color: #34aa2f !important; padding: 20px; margin-bottom: 40px;
+                    -webkit-box-shadow: 0 -4px rgb(21 108 0 / 50%) inset, 0 4px rgb(100 253 31 / 99%) inset, -4px 0 rgb(100 253 31 / 50%) inset, 4px 0 rgb(21 108 0 / 50%) inset;
+                    box-shadow: 0 -4px rgb(21 108 0 / 50%) inset, 0 4px rgb(100 253 31 / 99%) inset, -4px 0 rgb(100 253 31 / 50%) inset, 4px 0 rgb(21 108 0 / 50%) inset !important;">
+                        About Minecraft</h2>
+                    <p class="text-white text-justify">
+                        Minecraft is a sandbox video game developed by the Swedish video game developer Mojang Studios.
+                        The game was created by Markus "Notch" Persson in the Java programming language. Following
+                        several early private testing versions, it was first made public in May 2009 before fully
+                        releasing in November 2011, with Jens Bergensten then taking over development. Minecraft has
+                        since been ported to several other platforms and is the best-selling video game of all time,
+                        with 200 million copies sold and 126 million monthly active users as of 2020.
+                    </p>
+                </div>
+            </div>
+            <img id="dragon" class="img-fluid" style="height: 500px;"
+                src="https://images.chesscomfiles.com/uploads/v1/group/160152.572d90a9.100x100o.d96a57b727ad.gif"
+                alt="">
+        </div>
+    </section>
+
+    <section class="projects-section bg-light" id="news">
+        <div id="effect3" style="bottom: 170px; transform: scaleY(-1); margin: 0px;"></div>
+        <div class="container">
+            <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                <div class="col-xl-8 col-lg-7">
+                    <!---  <img class="img-fluid mb-3 mb-lg-0" src="https://cdn2.unrealengine.com/13br-evergreens-blue-newsheader-1920x1080-864336340.jpg" alt=""> -->
+                    <iframe width="90%" height="400" src="https://www.youtube.com/embed/_yEzswl_Zuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-xl-4 col-lg-5">
+                    <div class="featured-text text-center text-lg-left">
+                        <h4>Minecraft Dangeon: Hidden Depths</h4>
+                        <p class="text-black-50 mb-0">
+                            Fortnite is an online video game developed by Epic Games and released in 2017. It is
+                            available
+                            in three distinct game mode versions that otherwise share the same general gameplay and game
+                            engine: Fortnite: Save the World, a cooperative hybrid-tower defense-shooter-survival game
+                            for
+                            up to four players to fight off zombie-like creatures and defend objects with traps and
+                            fortifications they can build;
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="effect3"></div>
+    </section>
+
+    <section class="signup-section" id="signup">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto text-center">
+                    <img class="fa-2x mb-2" src="https://emoji.gg/assets/emoji/4506-minecraft-diamond.gif" alt="">
+
+                    <h2 class="text-white mb-5">Subscribe to recieve updates!</h2>
+                    <form class="form-inline d-flex" action="">
+                        <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="email"
+                            placeholder="Enter email address...">
+                        <button class="btn btn-black mx-auto" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="effect" style="bottom: -160px;"></div>
+    </section>
+
+    <footer class="footer bg-black small text-center text-white-50">
+        <div class="container">
+            Copyright <img width="10%" src="https://kblog-kidocode.netlify.app/_nuxt/img/e56abb6.png" alt=""> 2021
+        </div>
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/script2.js"></script>
+</body>
+
+</html>
